@@ -5,11 +5,7 @@ Integrating demographic insights from StatsNZ and local board data with internal
 
 ## Architecture ##
 
-<<<<<<< Updated upstream
-![System Architecture](assets/serials-erd.svg)
-=======
 ![System Architecture](./../../images/serials-erd.png)
->>>>>>> Stashed changes
 
 erDiagram
     local_boards ||--o{ branches : "contains"
