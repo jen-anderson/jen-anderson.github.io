@@ -1,5 +1,3 @@
-# Jen Anderson #
-
 ## About ##
 I am an information management professional working in library acquisitions. 
 
@@ -13,7 +11,7 @@ In my daily work, I see that effective collection development decisions are only
 I maintain this site as a record of coding projects and explorations. It reflects my interest in pragmatic and targeted solutions, as well as the potential of connected data.
 
 ## Projects ##
-- [Serials analytics](./projects/serials-analytics/README.md): Automating demographic and collection circulation data to improve purchasing and allocation decisions.
+- [Serials analytics](./projects/serials-analytics/README.md): Automating demographic and collection circulation data processing to improve purchasing and allocation decisions.
 - [Solvent substitution](./projects/solvent-substitution/README): A structured decision-making tool to predict solvent effectiveness, manage compliance and mitigate risks.
 - [Library search](./projects/library-search/README.md): Optimising metadata for improved user experience searching catalogue and creating book records.
 
