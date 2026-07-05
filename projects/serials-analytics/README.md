@@ -5,7 +5,11 @@ Integrating demographic insights from StatsNZ and local board data with internal
 
 ## Architecture ##
 
+<<<<<<< Updated upstream
 ![System Architecture](assets/serials-erd.svg)
+=======
+![System Architecture](./../../images/serials-erd.png)
+>>>>>>> Stashed changes
 
 erDiagram
     local_boards ||--o{ branches : "contains"
@@ -63,6 +67,10 @@ _Financial vs. operational hierarchy_
 </details>
 
 ### 2. Collection and bibliographic ###
+<<<<<<< Updated upstream
+=======
+*Bibliographic metadata and properties specific to titles*
+>>>>>>> Stashed changes
 | Table | Primary Fields | Key Relationship |
 |-------|----------------|------------------|
 | `titles` | `title_name`, `bib_no`, `language`, `frequency`, | For calculating unit cost, language and script information |
@@ -84,7 +92,13 @@ _Financial vs. operational hierarchy_
 </details>
 
 
+<<<<<<< Updated upstream
 ### Circulation and logistics ###
+=======
+### 3. Circulation and logistics ###
+*Systems for tracking movement of material through the system and tracking relative popularity*
+
+>>>>>>> Stashed changes
 | Table | Primary Fields | Key Relationship |
 |-------|----------------|------------------|
 | `items` | `barcode`, `volume`, `location`, `checkout data`, `status` | Trace use and movement across system|
@@ -103,7 +117,14 @@ _Financial vs. operational hierarchy_
 </details>
 
 
+<<<<<<< Updated upstream
 ### Demographics ###
+=======
+### 4. Demographics ###
+
+*StatsNZ and council data about populations across Auckland*
+
+>>>>>>> Stashed changes
 | Table | Primary Fields | Key Relationship |
 |-------|----------------|------------------|
 | `local_boards` | `name`, `area_sq_km` | Base geographic unit for analysis |
@@ -124,7 +145,14 @@ _Financial vs. operational hierarchy_
 </details>
 
 
+<<<<<<< Updated upstream
 ### Governance and policy ###
+=======
+### 5. Governance and policy ###
+
+*Systems for managing collection lifecycle and (re)distribution*
+
+>>>>>>> Stashed changes
 | Table | Primary Fields | Key Relationship |
 |-------|----------------|------------------|
 | `weeding` | `name`, `sap_id` | Retention guidelines |
