@@ -1,4 +1,5 @@
 # Serials Analysis #
+Link: [Serials Analysis (Public) on github](https://github.com/jen-anderson/SerialsAnalytics-Portfolio)
 
 ## Project summary ##
 Integrating demographic insights from StatsNZ and local board data with internal cost and circulation records to optimise serials procurement.
@@ -35,6 +36,7 @@ To ensure consistency across the data warehouse, the following attributes are pr
 
 
 ### 1. Acquisitions and procurement ###
+
 *Systems for managing supplier contracts, purchase order lifecycles and expenditure*
 
 | Table | Primary Fields | Key Relationship |
@@ -63,10 +65,8 @@ _Financial vs. operational hierarchy_
 </details>
 
 ### 2. Collection and bibliographic ###
-<<<<<<< Updated upstream
-=======
+
 *Bibliographic metadata and properties specific to titles*
->>>>>>> Stashed changes
 | Table | Primary Fields | Key Relationship |
 |-------|----------------|------------------|
 | `titles` | `title_name`, `bib_no`, `language`, `frequency`, | For calculating unit cost, language and script information |
@@ -88,13 +88,10 @@ _Financial vs. operational hierarchy_
 </details>
 
 
-<<<<<<< Updated upstream
-### Circulation and logistics ###
-=======
 ### 3. Circulation and logistics ###
-*Systems for tracking movement of material through the system and tracking relative popularity*
 
->>>>>>> Stashed changes
+*Systems for tracking movement of material through the system and understanding relative popularity*
+
 | Table | Primary Fields | Key Relationship |
 |-------|----------------|------------------|
 | `items` | `barcode`, `volume`, `location`, `checkout data`, `status` | Trace use and movement across system|
@@ -113,14 +110,10 @@ _Financial vs. operational hierarchy_
 </details>
 
 
-<<<<<<< Updated upstream
-### Demographics ###
-=======
 ### 4. Demographics ###
 
 *StatsNZ and council data about populations across Auckland*
 
->>>>>>> Stashed changes
 | Table | Primary Fields | Key Relationship |
 |-------|----------------|------------------|
 | `local_boards` | `name`, `area_sq_km` | Base geographic unit for analysis |
